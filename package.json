@@ -1,0 +1,49 @@
+{
+  "name": "frogg.in",
+  "description": "frogg.in todo-list",
+  "author": "palmer levey & sean dunaway",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenetik/frogg.git"
+  },
+  "homepage": "http://frogg.in/",
+  "scripts": {
+    "start": "node app.js"
+  },  
+  "dependencies": {
+    "express": ">= 0.0.1",
+    "jade": ">= 0.0.1",
+    "passport": ">= 0.1.x",
+    "passport-facebook": ">= 0.1.x",
+    "passport-twitter": ">= 0.1.x",
+    "passport-github": ">= 0.1.3",
+    "connect-flash": ">= 0.1.x",
+    "mongoose": ">= 3.4.0",
+    "async": ">= 0.1.x",
+    "underscore": ">= 1.4.2",
+    "winston": ">= 0.6.2",
+    "winston-mongodb": ">= 0.4.0",
+    "connect-redis": ">= 1.4.5",
+    "cluster": ">= 0.7.7",
+    "nodemailer": ">= 0.3.35",
+    "connect": ">= 2.7.0",
+    "socket.io": ">= 0.9.10",
+    "session.socket.io": ">= 0.1.3"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "0.1.1",
+    "grunt-contrib-concat": "0.2.0",
+    "grunt-contrib-copy": "0.4.1",
+    "grunt-contrib-nodeunit": "0.1.2",
+    "grunt-bower-task": "0.2.0",
+    "grunt-yui-compressor": "0.2.2",
+    "grunt-contrib-watch": "0.3.1",
+    "grunt-contrib-clean": "0.4.1"
+  },
+  "engines": {
+    "node": "0.10.5",
+    "npm": "1.2.9"
+  }
+}
